@@ -7,9 +7,7 @@ const Contacts = () => {
 	var [currentId, setCurrentId] = useState('');
     var [contactObjects, setContactObjects] = useState({})
 
-
-    // addoredit function should have been before the useffect 
-    // fuckkkkkkkkkkkkkkkkkkk
+ 
 
     const addOrEdit = obj => {
         if(currentId === ''){
